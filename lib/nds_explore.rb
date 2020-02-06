@@ -18,7 +18,7 @@ def print_first_directors_movie_titles
         print "#{nds[row_index][:movies][column_index][:title]}\n"
       end
     else
-      column_index += 1
+      row_index += 1
     end
   end
   row_index += 1
