@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   nds = directors_database
   row_index = 0
   while nds.length > row_index do
-    #title 
+    #title
     column_index = 0
     while column_index < nds[row_index].length do
       if nds[column_index]== "Stephen Spielberg"
