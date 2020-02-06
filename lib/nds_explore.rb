@@ -21,5 +21,6 @@ def print_first_directors_movie_titles
     else
       row_index += 1
     end
+    row_index +=1
   end
 end
