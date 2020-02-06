@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles
   nds = directors_database
   row_index = 0 #row contains name
-  while nds.length > row_index do #checks how mant 
+  while nds.length > row_index do #checks how mant
     column_index = 0 #column contains movies
     movies_size = nds[row_index][:movies].length
     if nds[row_index][:name] == "Stephen Spielberg"
