@@ -18,6 +18,7 @@ def print_first_directors_movie_titles
         puts nds[row_index][column_index]
       else
         column_index += 1
+      end
     end
     row_index += 1
   end
