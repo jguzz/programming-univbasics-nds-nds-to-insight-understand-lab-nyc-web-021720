@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   while nds.length > row_index do
     #name
     column_index = 0 #column contains movies
-    if nds[row_index][name] == "Stephen Spielberg"
+    if nds[row_index][:name] == "Stephen Spielberg"
       print "#{nds[row_index][movies][title]}\n"
     else
       column_index += 1
