@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
     #title
     pp nds[row_index]
     row_index += 1
-    
+
     if nds[row_index][column_index] == "Stephen Spielberg"
       puts nds[rows_index][column_index][:name]
     else
